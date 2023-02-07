@@ -131,7 +131,7 @@ class Tree {
     let queue = [this.root];
     let returnArray = [];
     // While there is still a node in the queue, take the next node in the queue
-    // and apply the callback function. Push into thew new array
+    // and apply the callback function. Push into the new array
     while (queue.length > 0) {
       let node = queue.shift();
       returnArray.push(callback(node));
